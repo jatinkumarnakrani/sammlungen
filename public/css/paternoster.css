@@ -1,0 +1,23 @@
+.leftDoor, .rightDoor {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.rightDoor {
+    margin-left: 5px;
+}
+
+.cabin {
+    position: absolute;
+    height: 400px;
+    width: 160px;
+    top: 400px;
+    background: url(../img/holz.jpg) left bottom no-repeat;
+    background-size: contain;
+}
+
+.rightDoor .cabin {
+    top: -400px;
+}
